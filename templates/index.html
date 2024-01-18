@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+    <meta
+      property="og:title"
+      content="Tes Frontend Developer CTARSA Foundation"
+    />
+    <meta
+      property="og:description"
+      content="Tes Frontend Developer CTARSA Foundation Purpose, Wish Me Luck!"
+    />
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='ogimage.jpg') }}"
+    />
+
+    <title>Sambal Baby Eat</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bulma CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <link
+      href="{{ url_for('static', filename='style.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="/" class="logo"
+            >BabyEat<span style="color: #fe0005">.</span></a
+          >
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li class="access-card"><a href="#access">Team</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Baby Eat <span style="color: #fe0005">Sambal</span><br />Teriakan
+            Ikan Kenikmatan
+          </h1>
+          <p>by WMK IPB TEAM 69</p>
+        </div>
+      </div>
+    </div>
+    <div id="product">
+      <div class="container">
+        <h1 class="head-product">Foto Produk</h1>
+        <div class="product-gallery">
+          <img src="/static/images/foto1.jpeg" alt="Product 1" />
+          <img src="/static/images/foto2.jpeg" alt="Product 1" />
+          <img src="/static/images/foto3.jpeg" alt="Product 1" />
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="about-content">
+          <h1 class="section-title">About Baby Fish</h1>
+          <p class="company-description">
+            Baby fish merupakan perusahaan yang bergerak di bidang makanan.
+            Perusahaan ini didirikan pada tahun 2023 oleh mahasiswa WMK IPB yang
+            ingin menginovasi makanan dengan membuat varian makanan yang baru.
+            Oleh karena itu, perusahaan ini mengeluarkan suatu merek produk
+            yaitu Sambal Baby Fish, Sambal Baby fish yaitu produk yang terbuat
+            dari sambal dan ikan kecil krispi yang dapat menjadi lauk pauk atau
+            pun cemilan yang terbuat 100% bahan alami sehingga aman untuk di
+            konsumsi. Dalam satu toples diisi dengan berat 210 ml. Sambal Baby
+            fish ini memiliki rasa yang unik, perpaduan antara sambal dan ikan
+            kecil krispi yang disatukan serta memiliki banyak manfaat
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="body-5">
+      <div class="container">
+        <div class="body-5-text">
+          <h1>Our Team</h1>
+        </div>
+        <div class="card-container">
+          <div class="card-box">
+            <div class="review-card">
+              <div class="profile-info">
+                <div>
+                  <h3>Theresa Lidya Rosliana</h3>
+                  <h4>CEO</h4>
+                  <img src="/static/images/anggota2.jpeg" alt="" />
+                  <a href="https://www.instagram.com/theresalidya" target="_blank" style="text-decoration: none; color: inherit;">
+                      <h3 style="margin-top: 20px;">@theresalidya</h3>
+                  </a>                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="review-card">
+              <div class="profile-info">
+                <div>
+                  <h3>Farid Afwan Firdaus</h3>
+                  <h4>Chief Marketing Officer</h4>
+                  <img src="/static/images/anggota1.jpeg" alt="" />
+                  <a href="https://www.instagram.com/afwan_firdaus" target="_blank" style="text-decoration: none; color: inherit;">
+                    <h3 style="margin-top: 20px;">@afwan_firdaus</h3>
+                  </a>     
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="review-card">
+              <div class="profile-info">
+                <div>
+                  <h3>Nabil Amaraldo</h3>
+                  <h4>Chief Operational Officer</h4>
+                  <img src="/static/images/anggota4.jpeg" alt="" />
+                  <a href="https://www.instagram.com/dedealnaal" target="_blank" style="text-decoration: none; color: inherit;">
+                    <h3 style="margin-top: 20px;">@dedealnaal</h3>
+                  </a>     
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="review-card">
+              <div class="profile-info">
+                <div>
+                  <h3>Gina Natasya</h3>
+                  <h4>Chief Technology Officer</h4>
+                  <img src="/static/images/anggota5.jpeg" alt="" />
+                  <a href="https://www.instagram.com/gina_natasyaa" target="_blank" style="text-decoration: none; color: inherit;">
+                    <h3 style="margin-top: 20px;">@gina_natasyaa</h3>
+                  </a>     
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="review-card">
+              <div class="profile-info">
+                <div>
+                  <h3>Ajeng Rezkita Putri</h3>
+                  <h4>Chief Financial Officer</h4>
+                  <img src="/static/images/anggota3.jpeg" alt="" />
+                  <a href="https://www.instagram.com/ps.luuuu" target="_blank" style="text-decoration: none; color: inherit;">
+                    <h3 style="margin-top: 20px;">@ps.luuuu</h3>
+                  </a>     
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <a class="buttonl" style="color: #080808;"><i class="fa fa-arrow-left" width="32" height="32"></i></a>
+            <a class="buttonr" style="color: #080808;"><i class="fa fa-arrow-right" width="32" height="32"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="section">
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+              <div class="contact-left">
+              <h3 href="/" class="logo-footer" style="color: #080808; margin-bottom: 10px;">
+                BabyEat<span style="color: #fe0005">.</span>
+              </h3>
+              <h1 class="sub-title">Contact Us</h1>
+              <p style="color: #080808;"><i class="fa fa-solid fa-envelope"></i>wmkipb69@gmail.com</p>
+              <p style="color: #080808;"><i class="fa fa-solid fa-phone"></i>+62 87726300617</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/wmkipb_69?igsh=MWJ1MjFwMzdmYTJiMg%3D%3D" target="_blank"
+                  ><i class="fa fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.instagram.com/wmkipb_69?igsh=MWJ1MjFwMzdmYTJiMg%3D%3D" target="_blank"
+                  ><i class="fa fa-brands fa-tiktok">TikTok</i
+                ></a>
+              </div>
+            </div>
+            <div class="contact-right">
+                <h1 style="color: #080808; font-size: x-large; font-weight: bold; margin-top: 42px;" >Kotak Saran!</h1>
+                <form name="submit-to-google-sheet" id="contactForm">
+                <textarea name="Message"id="messageInput" rows="5" placeholder="Saran Kamu!"></textarea>
+                <span id="msg" class="pesan-sukses"></span>
+                <button type="submit" class="btn btn2" id="submitBtn"">
+                  <span class="loader" id="loader"></span>
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="kaki">
+      <p>&copy; 2024 Sambal Baby Eat Website. All rights reserved. | Designed by ahnaf</p>
+    </div>
+    <!-- Function Button Slide Carousel -->
+    <script>
+      $(document).ready(function () {
+        const cardContainer = $(".card-container");
+        const cardBox = $(".card-box");
+        const reviewCards = $(".review-card");
+        const totalCards = reviewCards.length;
+        const cardWidth = reviewCards.width();
+        let currentCardIndex = 0;
+
+        function showCard(index) {
+          const newPosition = -index * cardWidth;
+          cardBox.css("transform", `translateX(${newPosition}px)`);
+        }
+
+        $(".buttonl").click(function () {
+          currentCardIndex = (currentCardIndex - 2 + totalCards) % totalCards;
+          showCard(currentCardIndex);
+        });
+
+        $(".buttonr").click(function () {
+          currentCardIndex = (currentCardIndex + 2) % totalCards;
+          showCard(currentCardIndex);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add("loaded");
+      });
+    </script>
+  </body>
+</html>
